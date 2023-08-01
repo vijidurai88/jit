@@ -1,0 +1,60 @@
+
+const x = "gkk";
+let y = 6;
+var z = 6;
+
+a=10
+console.log(x,y,z);
+
+let string = "hello";
+console.log(string);
+
+
+console.log(array);
+
+console.log(array[0]);
+console.log(array[1]);
+console.log(array[2]);
+console.log(array[3]);
+
+console.log(array.length);
+
+for(let i=0;i<array.length;i++)
+{
+    console.log(array[i]);
+}
+
+sum=0;
+for(let i=100;i>=1;i--)
+{
+    sum=sum+i;
+}
+console.log(sum);
+
+
+
+arr=[1,2,3,4,5]
+array_1 = arr.map((i)=> i+2);
+{
+    console.log(array_1);
+}
+
+let array = ["apple","orange","blueberry","mango"];
+let a=array.filter((x)=>x ==="blueberry");
+{
+    console.log(a);
+}
+
+let b=array.some((x)=>x==="blueberry");
+{
+    console.log(b);
+}
+
+const hour = new Date().getHours(); 
+let greeting;
+
+if (hour < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
